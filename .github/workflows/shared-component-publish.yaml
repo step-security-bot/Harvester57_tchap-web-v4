@@ -12,6 +12,9 @@ on:
                     - minor
                     - major
 concurrency: release
+permissions:
+  contents: read
+
 jobs:
     publish:
         name: "Release & Publish"
